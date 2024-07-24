@@ -25,7 +25,7 @@ username = input('Username?\n> ')
 mining_key = input("Mining key? ['None' for no key]\n> ")
 diff_choice = input(
     'Use lower difficulty? (Y/N) [Leave empty for default of True]\n> ')
-if diff_choice.lower == "n":
+if diff_choice.lower() == "n":
     UseLowerDiff = False
 else:
     UseLowerDiff = True
